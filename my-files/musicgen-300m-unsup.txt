@@ -1,0 +1,247 @@
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.permute.default:supported:True
+:DEBUG - is_node_supported - target:aten.embedding.default:supported:True
+:DEBUG - is_node_supported - target:_tensor_constant4:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.permute.default:supported:True
+:DEBUG - is_node_supported - target:aten.embedding.default:supported:True
+:DEBUG - is_node_supported - target:_tensor_constant3:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.permute.default:supported:True
+:DEBUG - is_node_supported - target:aten.embedding.default:supported:True
+:DEBUG - is_node_supported - target:_tensor_constant2:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.permute.default:supported:True
+:DEBUG - is_node_supported - target:aten.embedding.default:supported:True
+:DEBUG - is_node_supported - target:_tensor_constant1:supported:False
+:DEBUG - is_node_supported - target:aten.select.int:supported:True
+:DEBUG - is_node_supported - target:aten.select.int:supported:True
+:DEBUG - is_node_supported - target:aten.select.int:supported:True
+:DEBUG - is_node_supported - target:aten.select.int:supported:True
+:DEBUG - is_node_supported - target:aten.lift_fresh_copy.default:supported:True
+:DEBUG - is_node_supported - target:_tensor_constant0:supported:False
+:DEBUG - is_node_supported - target:aten.transpose.int:supported:True
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.permute.default:supported:True
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.slice.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:arg6_1:supported:False
+:DEBUG - is_node_supported - target:arg5_1:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+/home/siddhant/Documents/open-source/openvino/openvino_env/lib/python3.10/site-packages/torch/overrides.py:110: UserWarning: 'has_cuda' is deprecated, please use 'torch.backends.cuda.is_built()'
+  torch.has_cuda,
+/home/siddhant/Documents/open-source/openvino/openvino_env/lib/python3.10/site-packages/torch/overrides.py:111: UserWarning: 'has_cudnn' is deprecated, please use 'torch.backends.cudnn.is_available()'
+  torch.has_cudnn,
+/home/siddhant/Documents/open-source/openvino/openvino_env/lib/python3.10/site-packages/torch/overrides.py:117: UserWarning: 'has_mps' is deprecated, please use 'torch.backends.mps.is_built()'
+  torch.has_mps,
+/home/siddhant/Documents/open-source/openvino/openvino_env/lib/python3.10/site-packages/torch/overrides.py:118: UserWarning: 'has_mkldnn' is deprecated, please use 'torch.backends.mkldnn.is_available()'
+  torch.has_mkldnn,
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] WON'T CONVERT forward /home/siddhant/Documents/open-source/audiocraft/audiocraft/modules/conv.py line 221 
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] due to: 
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] Traceback (most recent call last):
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   File "/home/siddhant/Documents/open-source/openvino/openvino_env/lib/python3.10/site-packages/torch/utils/_sympy/value_ranges.py", line 74, in __init__
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]     raise ValueRangeError(f"Invalid ranges [{lower}:{upper}]")
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] torch._dynamo.exc.BackendCompilerFailed: backend='openvino' raised:
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] LoweringException: ValueRangeError: Invalid ranges [32015:4]
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   target: aten.slice.Tensor
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   args[0]: TensorBox(StorageBox(
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]     Pointwise(
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       'cuda',
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       torch.float32,
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       def inner_fn(index):
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]           _, i1, i2 = index
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]           tmp0 = ops.load(buf3, i2 + i1 * 5 + 5 * s1)
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]           tmp1 = ops.load(arg7_1, i1)
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]           tmp2 = tmp0 + tmp1
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]           return tmp2
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       ,
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       ranges=[1, 256, 5*s1 + 5],
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       origin_node=convolution,
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]       origins={convolution}
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]     )
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   ))
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   args[1]: 2
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   args[2]: s2 - ((s2 - 5)//2) - 5
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING]   args[3]: 5*s1 - ((s2 - 5)//2) + 5
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] 
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] Set TORCH_LOGS="+dynamo" and TORCHDYNAMO_VERBOSE=1 for more information
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] 
+[2024-03-03 10:43:25,482] torch._dynamo.convert_frame: [WARNING] 
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.slice.Tensor:supported:True
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:arg9_1:supported:False
+:DEBUG - is_node_supported - target:arg8_1:supported:False
+:DEBUG - is_node_supported - target:arg7_1:supported:False
+:DEBUG - is_node_supported - target:arg6_1:supported:False
+:DEBUG - is_node_supported - target:arg5_1:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:arg6_1:supported:False
+:DEBUG - is_node_supported - target:arg5_1:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.slice.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten._assert_async.msg:supported:False
+:DEBUG - is_node_supported - target:aten.scalar_tensor.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function le>:supported:False
+:DEBUG - is_node_supported - target:<built-in function add>:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:arg9_1:supported:False
+:DEBUG - is_node_supported - target:arg8_1:supported:False
+:DEBUG - is_node_supported - target:arg7_1:supported:False
+:DEBUG - is_node_supported - target:arg6_1:supported:False
+:DEBUG - is_node_supported - target:arg5_1:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:arg6_1:supported:False
+:DEBUG - is_node_supported - target:arg5_1:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.add.Tensor:supported:True
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:arg9_1:supported:False
+:DEBUG - is_node_supported - target:arg8_1:supported:False
+:DEBUG - is_node_supported - target:arg7_1:supported:False
+:DEBUG - is_node_supported - target:arg6_1:supported:False
+:DEBUG - is_node_supported - target:arg5_1:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False
+:DEBUG - is_node_supported - target:output:supported:False
+:DEBUG - is_node_supported - target:aten.convolution.default:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:<built-in function getitem>:supported:True
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:arg4_1:supported:False
+:DEBUG - is_node_supported - target:arg3_1:supported:False
+:DEBUG - is_node_supported - target:arg2_1:supported:False
+:DEBUG - is_node_supported - target:arg1_1:supported:False
+:DEBUG - is_node_supported - target:arg0_1:supported:False

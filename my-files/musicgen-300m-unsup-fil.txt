@@ -1,0 +1,5 @@
+:DEBUG - is_node_supported - target:aten._weight_norm_interface.default:supported:False
+:DEBUG - is_node_supported - target:aten.alias.default:supported:False
+:DEBUG - is_node_supported - target:aten.reflection_pad1d.default:supported:False
+:DEBUG - is_node_supported - target:aten.elu.default:supported:False
+:DEBUG - is_node_supported - target:aten._assert_async.msg:supported:False
